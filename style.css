@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #b30000;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+nav {
+    background-color: #003366;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+    color: #b30000;
+}
+
+header h1 {
+    color: white;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 18px;
+    margin: 15px 0;
+    background-color: #fafafa;
+    border-radius: 6px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 15px;
+}
+
+.price {
+    font-weight: bold;
+    color: #003366;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+.map-box {
+    border: 1px solid #999;
+    padding: 15px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.social-link {
+    display: inline-block;
+    background-color: #b30000;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.social-link:hover {
+    background-color: #7d0000;
+}
